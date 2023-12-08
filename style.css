@@ -42,3 +42,8 @@ footer a {
   color: #fff;
   text-decoration: none;
 }
+
+#map {
+  width: 300px; 
+  height: 300px;
+}
