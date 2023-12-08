@@ -1,13 +1,44 @@
-footer {
+body {
   font-family: 'Inter', sans-serif;
+  font-size: 16;
   font-weight: 600;
   line-height: normal;
-  font-size: 16;
-  background-color: #000000;
-  color: white;
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin: auto;
-  padding: 50; 
+  padding: 40;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 50;
+  text-align: center;
+  margin-top: auto;
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
 }
