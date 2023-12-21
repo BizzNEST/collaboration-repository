@@ -1,3 +1,48 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30;
+}
+
+.navbar {
+  display: flex;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white; 
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end; 
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin-left: 40; 
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
 #map {
   width: 300; 
   height: 300;
