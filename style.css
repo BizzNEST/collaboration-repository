@@ -10,7 +10,6 @@ body {
   min-height: 100vh;
 }
 
-<<<<<<< HEAD
 header {
   background-color: black;
   color: white;
@@ -44,8 +43,6 @@ header {
   color: white;
 }
 
-=======
->>>>>>> 05f1916 (feat(footer): Adding footer + css styles)
 #map {
   width: 300; 
   height: 300;
