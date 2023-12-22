@@ -42,6 +42,13 @@ header {
   text-decoration: none;
   color: white;
 }
+main {
+  background-color: #121417;
+}
+
+.projects {
+  color: #fff;
+}
 
 #map {
   width: 300; 
